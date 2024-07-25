@@ -3,12 +3,11 @@ This script transform PDF files into plain text ones. It also have a recursive f
 
 ## Usage
 ```
->>> python3 pdf_to_text.py -f ./Path/To/File.pdf -r ./txt/result
+>>> python3 pdf_to_text.py -p ./Path/To/File.pdf -r ./txt/result
 Or
->>> python3 pdf_to_text.py -d .\\Path\\To\\Directory\\ -r .\\txt\\results\\
+>>> python3 pdf_to_text.py -p .\\Path\\To\\Directory\\ -r .\\txt\\results\\
 ```
 
 ## Flags
-- -d -> Add a directory path
-- -f -> Add a file path (PDF file)
+- -p -> Add a path to a PDF file or a directory with PDFs
 - -r -> Add a path to a directory where you want to store the plain text files (optional) 
